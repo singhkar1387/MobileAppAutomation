@@ -9,7 +9,6 @@ import java.util.Map;
 import org.yaml.snakeyaml.Yaml;
 
 public class YamlUtils {
-
 	@SuppressWarnings("rawtypes")
 	public static Object loadYaml(String key, String filepath) {
 		Map obj = new HashMap();
