@@ -1,0 +1,14 @@
+checkoutProduct: !!com.ebay.testing.testData.SearchData {
+ LoginDetails: {
+     emailid: macuser@gmail.com,
+     password: androiduser123,
+    },
+    searchSku: TV
+}
+searchProduct: !!com.ebay.testing.testData.SearchData {
+ LoginDetails: {
+     emailid: macuser@gmail.com,
+     password: androiduser123,
+    },
+    searchSku: 65-inch TV
+}
