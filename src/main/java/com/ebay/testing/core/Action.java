@@ -223,8 +223,6 @@ public class Action {
 	public void waitFor(long sec) {
 		try {
 			Thread.sleep(sec);
-			//appdriver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
-
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
